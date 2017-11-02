@@ -1,0 +1,16 @@
+{
+    "name": "vc-node",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "ava --verbose",
+        "test:watch": "ava --verbose --watch",
+        "start": "node index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "ava": "^0.21.0"
+    }
+}
