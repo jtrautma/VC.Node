@@ -13,8 +13,12 @@ function range(start, end, step) {
 
 function sum() {
    console.log("we are in the sum function")
-   console.log(arguments[0].length)
-   //for(var j=0; j<=arguments[0].length; j++)
+   var sumOfRange = 0
+   for(var j=0; j<=arguments[0].length; j++) {
+     console.log(arguments[0][j])
+     sumOfRange += int(arguments[0][j])
+     }
+   return sumOfRange
    }
 console.log(range(1, 10));
 // → [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
