@@ -1,21 +1,20 @@
 // Your code here.
 function range(start, end, step) {
   step = (step || 1);
-  console.log("step is ", step)
   var array = [];
   var i = start;
   while(i != end) {
-    console.log(i)
     array.push(i);
     i += step;
     }
-  console.log(i)
   array.push(i);
-  console.log("array has ", array)
+  return(array)
   }
 
-function sum(range) {
+function sum() {
    console.log("we are in the sum function")
+   console.log(arguments[0].length)
+   //for(var j=0; j<=arguments[0].length; j++)
    }
 console.log(range(1, 10));
 // → [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
