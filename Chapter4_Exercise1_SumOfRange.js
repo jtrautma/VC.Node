@@ -12,11 +12,9 @@ function range(start, end, step) {
   }
 
 function sum() {
-   console.log("we are in the sum function")
    var sumOfRange = 0
-   for(var j=0; j<=arguments[0].length; j++) {
-     console.log(arguments[0][j])
-     sumOfRange += number(arguments[0][j])
+   for(var j=0; j<arguments[0].length; j++) {
+     sumOfRange += arguments[0][j]
      }
    return sumOfRange
    }
