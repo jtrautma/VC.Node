@@ -24,3 +24,5 @@ console.log(range(5, 2, -1));
 // → [5, 4, 3, 2]
 console.log(sum(range(1, 10)));
 // → 55
+console.log(sum(range(5, 2, -1)));
+// 14
