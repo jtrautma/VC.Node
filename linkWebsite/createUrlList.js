@@ -18,5 +18,5 @@ urlArray = [
 
 
 for(i = 0; i < urlArray.length; i++) {
-  print('Link',i+1,'is',urlArray[i]);
+    print('Link ',i+1,' to be <a href="',urlArray[i], '" target="_blank">visited here</a> ya ken');
   }
